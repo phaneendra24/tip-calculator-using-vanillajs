@@ -1,0 +1,167 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(186, 14%, 43%);
+}
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 70vh;
+    background-color:  hsl(185, 41%, 84%);
+}
+.subwhitediv{
+    min-height: 35vh;
+    width: 100vh;
+    margin: 20px 20px 20px;
+    padding: 20px 20px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-div{
+    background-color: white;
+    height: 45vh;
+    width: 60vh;
+    min-width: 30vh;
+}
+.amount-div{
+    background-color: hsl(183, 100%, 15%);
+    height: 45vh;
+    width: 60vh;
+    min-width: 30vh;
+}
+input{
+    width: 80%;
+    padding: 10px;
+    background-color: hsl(189, 41%, 97%);
+    border-style: none;
+    text-align: center;
+}
+.bill-input i{
+    position: absolute;
+    padding: 10px;
+}
+.percent-divs1{
+    display: flex;
+}
+.percent-divs2{
+    display: flex;
+    margin-left: 2px;
+}
+button{
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 0.2rem;
+    border-style: none;
+    border-radius: 10px;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+    color: white;
+    background-color: hsl(183, 100%, 15%);
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 0.2rem;
+    border-style: none;
+    border-radius: 10px;
+}
+button:hover{
+    color: hsl(183, 100%, 15%);
+    background-color:hsl(172, 67%, 45%) ;
+}
+.peopleinput i{
+    position: absolute;
+    padding: 10px;
+}
+.tipAmountText{
+    margin-left: 20px;
+    padding: 0%;
+}
+.total-amount{
+    margin-left: 20px;
+    padding: 0%;
+}
+.submitBtn{
+    background-color: hsl(172, 67%, 45%);
+    width: 80%;
+    min-width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    border-style: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.tip-amount{
+    display: flex;
+}
+.tipvalue{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+}
+.totalvalue{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 3;
+    margin-left: 30px;
+}
+
+.total-amount{
+    display: flex;
+}
+
+.percentStyle{
+    color: hsl(183, 100%, 15%);
+    background-color:hsl(172, 67%, 45%) ;
+}
+
+
+@media (max-width:900px)
+{
+    .main-div{
+        width: 95%;
+    }
+    .subwhitediv{
+        width: 50vh;
+        background-color:hsl(185, 41%, 84%) ;
+    }
+    .amount-div{
+        width: 2vh;
+    }
+    .input-div{
+        padding-left: 2vh;
+        width: 24vh;
+    }
+    .btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+        padding: 10px;
+    }
+    input{
+       width: 50%; 
+    }
+
+}
